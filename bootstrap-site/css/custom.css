@@ -1,0 +1,34 @@
+body{
+	background-color: rgb(232, 238, 243);
+}
+
+.jumbotron {
+    background-color: #fff;
+}
+.well{
+    background-color: rgb(181, 195, 208);
+}
+.sm-row{
+	font-size:36px;
+}
+.sm-row .col-xs-2{
+	display:inline;
+	width:auto;
+	padding-left: 10px;
+    padding-right: 0;
+}
+.sm-row .col-xs-2:first-of-type{
+	padding-left:15px;
+}
+.testimonial-img img{
+	width:50px;
+	height:50px;
+}
+hr {
+    border-top: 1px solid rgb(214, 223, 231);
+ }
+@media (min-width: 768px) and  (max-width: 1199px) {
+	.gridfix{
+		clear:both;
+	}
+}
