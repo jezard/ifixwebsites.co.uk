@@ -1,9 +1,11 @@
 body{
-	background-color: rgb(232, 238, 243);
+	/*background-color: rgb(232, 238, 243);*/
 }
 
 .jumbotron {
     background-color: #fff;
+    background-color: #080808;
+    color:#e8e8e8;
 }
 .well{
     background-color: rgb(181, 195, 208);
