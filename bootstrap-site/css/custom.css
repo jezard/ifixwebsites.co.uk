@@ -12,6 +12,7 @@ body{
     background-size: cover;
     color: #e8e8e8;
     background-repeat: no-repeat;
+    background-position: center;
 }
 .well{
     /*background-color: rgb(181, 195, 208);*/
@@ -46,10 +47,27 @@ body{
 hr {
     border-top: 1px solid rgb(214, 223, 231);
  }
+
+
 @media (min-width: 768px) and  (max-width: 1199px) {
 	.gridfix{
 		clear:both;
 	}
+}
+
+
+h1 > a, h2 > a{
+  padding-top: 51px;
+  margin-top: -51px;
+  text-decoration: none;
+  cursor:default;
+  color:inherit;
+}
+
+h1 > a:hover, h2 > a:hover{
+  text-decoration: none;
+  color:inherit;
+
 }
 
 
@@ -711,8 +729,9 @@ abbr[data-original-title] {
 blockquote {
   padding: 11px 22px;
   margin: 0 0 22px;
-  font-size: 17.5px;
+  font-size: 12px!important;
   border-left: 5px solid #d4dbe0;
+  font-style: italic;
 }
 blockquote p:last-child,
 blockquote ul:last-child,
