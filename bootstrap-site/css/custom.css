@@ -13,7 +13,6 @@ body{
     color: #e8e8e8;
     background-repeat: no-repeat;
     background-position: center;
-=======
 }
 
 .jumbotron {
@@ -54,6 +53,16 @@ body{
 hr {
     border-top: 1px solid rgb(214, 223, 231);
  }
+
+.home-blurb{
+  min-height: 120px;
+}
+@media (max-width: 767px) {
+  .home-blurb{
+    min-height: auto;
+  }
+}
+
 
 
 @media (min-width: 768px) and  (max-width: 1199px) {
